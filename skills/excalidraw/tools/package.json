@@ -1,0 +1,23 @@
+{
+  "name": "learn-anything-visual-authoring",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "render": "node render-excalidraw.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@excalidraw/excalidraw": "0.18.1",
+    "vite": "8.3.2",
+    "playwright": "1.63.0"
+  },
+  "overrides": {
+    "lodash-es": "4.18.1",
+    "sass": "1.105.1",
+    "nanoid@3.3.3": "3.3.19",
+    "nanoid@4.0.2": "5.1.16"
+  }
+}

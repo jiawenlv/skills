@@ -1,0 +1,6 @@
+interface:
+  display_name: "Teach — Personal Learning"
+  short_description: "Personal coaching through adaptive deliberate practice"
+  default_prompt: "Use $teach to continue my course from real learning evidence, connect the next skill to the system picture, and guide targeted practice with questions, explanations, feedback, and an adapted next step in my chosen learning rhythm."
+policy:
+  allow_implicit_invocation: false
