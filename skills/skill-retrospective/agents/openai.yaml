@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Retrospective"
+  short_description: "Improve a skill from conversation evidence without overfitting"
+  default_prompt: "Use $skill-retrospective to review this conversation and improve the specified skill where the evidence supports a reusable change; leave it unchanged when appropriate."

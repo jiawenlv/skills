@@ -1,0 +1,10 @@
+{
+  "name": "jiawenlv-agent-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Skills for learning projects, visual explanations, and workflow improvement in Codex and Pi.",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/jiawenlv/skills.git" },
+  "keywords": ["pi-package", "agent-skills", "codex", "teaching"],
+  "pi": { "skills": ["./skills"] }
+}
